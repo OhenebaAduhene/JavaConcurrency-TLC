@@ -11,7 +11,7 @@ public class CancelWithInterrupt {
                     Thread.sleep(1000);
 
                 } catch (InterruptedException ignore){
-                    System.out.println("Program interrupted");
+                    System.err.println("Program interrupted");
                     return;
                 }
             }
